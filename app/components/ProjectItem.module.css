@@ -1,0 +1,42 @@
+.projectItem {
+  width: inherit;
+  text-align: center;
+  color: var(--color-accent);
+  margin: 2rem;
+  font-size: 1.5rem;
+  list-style: none;
+  font-family: var(--font-secondary);
+}
+.projectItemImg {
+  width: 100%;
+  height: 20rem;
+}
+
+.projectItemCap {
+  padding: 1rem;
+}
+.projectItem:hover {
+  scale: 1.05;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  width: 80%;
+}
+.projectItem:hover .projectItemCap {
+  background-color: var(--color-bg2);
+}
+.projectItemOpen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+.projectItem:hover .projectItemImg {
+  opacity: 0.2;
+}
+.projectItem:hover .projectItemOpen {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s 0.2s, opacity 0.3s;
+}

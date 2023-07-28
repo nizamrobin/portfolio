@@ -1,0 +1,86 @@
+.navbar {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  padding: 1rem 1.5rem;
+  position: relative;
+}
+.navHead {
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  font-family: var(--font-secondary);
+}
+.brand {
+  width: 1.2rem;
+  height: auto;
+}
+.navTitle {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  line-height: 1;
+}
+.menuLogo {
+  width: 1.5rem;
+  height: auto;
+}
+.menuClose {
+  display: none;
+}
+
+/* Click event css on menu icon */
+.menuOpen:hover {
+  display: none;
+}
+.menuOpen:hover ~ .menuClose {
+  display: block;
+}
+.menuOpen:hover ~ .navList {
+  display: block;
+}
+/* end */
+
+/* Nav List */
+.navList {
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-accent);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(0, 100%);
+  padding: 1rem 0;
+  display: none;
+}
+
+.navListItem {
+  list-style: none;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-family: var(--font-secondary);
+  letter-spacing: 0.5rem;
+}
+
+.logo {
+  /* filter: invert(87%) sepia(35%) saturate(3782%) hue-rotate(3deg)
+    brightness(109%) contrast(102%); */
+}
+
+.logo:hover {
+  /* filter: invert(10%) sepia(69%) saturate(7083%) hue-rotate(358deg)
+    brightness(109%) contrast(116%); */
+  transition-duration: 0.2s;
+}
+
+@media only screen and (min-width: 768px) {
+  .brand {
+    width: 1.7rem;
+  }
+  .navTitle {
+    font-size: 2rem;
+  }
+}

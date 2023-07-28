@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--color-accent);
+}
+.footerText {
+  color: var(--color-primary);
+  line-height: 2;
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
