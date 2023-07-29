@@ -7,10 +7,6 @@ export default function ProjectItem({ link, caption, imgLink }) {
     <li class={styles.projectItem}>
       <Link href={link} target="_blank">
         <Image
-          class={styles.projectItemImg}
-    <li className={styles.projectItem}>
-      <Link href={link} target="_blank">
-        <Image
           className={styles.projectItemImg}
           src={imgLink}
           alt={"Project-" + caption}
