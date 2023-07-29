@@ -7,7 +7,7 @@ export default function Nav() {
     <nav className={styles.navbar}>
       <Link className={styles.navHead} href="#">
         <Image
-          src="/logo/brandMini.svg"
+          src="logo/brandMini.svg"
           alt="logo"
           width={500}
           height={500}
