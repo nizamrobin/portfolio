@@ -1,26 +1,27 @@
 import Image from "next/image";
 import styles from "../components/ProjectItem.module.css";
+import Link from "next/link";
 
-export default function ProjectItem() {
+export default function ProjectItem({ link, caption, imgLink }) {
   return (
     <li class={styles.projectItem}>
-      <a href="https://moonlight-bd.com/" target="_blank">
+      <Link href={link} target="_blank">
         <Image
           class={styles.projectItemImg}
-          src="/mlg.png"
-          alt="Project-Moonlight Group"
+          src={imgLink}
+          alt={"Project-" + caption}
           width={500}
           height={500}
         />
         <h4 class={styles.projectItemCap}>Moonlight Group</h4>
-      </a>
-      <a
-        href="https://moonlight-bd.com/"
+      </Link>
+      <Link
+        href={link}
         target="_blank"
         class={`button ${styles.projectItemOpen}`}
       >
         Live Preview
-      </a>
+      </Link>
     </li>
   );
 }

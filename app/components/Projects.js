@@ -3,49 +3,24 @@ import styles from "../components/Projects.module.css";
 
 export default function Projects() {
   return (
-    <section id={styles.projects} class="projects">
-      <h3 class="projectTitle">Projects</h3>
-      <ul class="projectItems">
-        <ProjectItem />
-        <li class="projectItem">
-          <a href="https://moonlight-bd.com/" target="_blank">
-            <img class="projectItemImg" src="../res/mlg.PNG" alt="" />
-            <h4 class="projectItemCap">Moonlight Group</h4>
-          </a>
-          <a
-            href="https://moonlight-bd.com/"
-            target="_blank"
-            class="button projectItemOpen"
-          >
-            Live Preview
-          </a>
-        </li>
-        <li class="projectItem">
-          <a href="https://offbeat-todo-app.netlify.app/" target="_blank">
-            <img class="projectItemImg" src="../res/todo-app.png" alt="" />
-            <h4 class="projectItemCap">Todo App</h4>
-          </a>
-          <a
-            href="https://offbeat-todo-app.netlify.app/"
-            target="_blank"
-            class="button projectItemOpen"
-          >
-            Live Preview
-          </a>
-        </li>
-        <li class="projectItem">
-          <a href="https://offbeat-random-quote.netlify.app/" target="_blank">
-            <img class="projectItemImg" src="../res/random-quote.png" alt="" />
-            <h4 class="projectItemCap">Random Quote Machine</h4>
-          </a>
-          <a
-            href="https://offbeat-random-quote.netlify.app/"
-            target="_blank"
-            class="button projectItemOpen"
-          >
-            Live Preview
-          </a>
-        </li>
+    <section id={styles.projects} className={styles.projects}>
+      <h3 className={styles.projectTitle}>Projects</h3>
+      <ul className={styles.projectItems}>
+        <ProjectItem
+          link={"https://moonlight-bd.com/"}
+          caption={"Moonlight Group"}
+          imgLink={"/mlg.png"}
+        />
+        <ProjectItem
+          link={"https://offbeat-todo-app.netlify.app/"}
+          caption={"Todo App"}
+          imgLink={"/todo-app.png"}
+        />
+        <ProjectItem
+          link={"https://offbeat-random-quote.netlify.app/"}
+          caption={"Random Quote Machine"}
+          imgLink={"/random-quote.png"}
+        />
       </ul>
     </section>
   );
