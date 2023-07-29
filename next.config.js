@@ -2,7 +2,7 @@
 const nextConfig = {
   swcMinify: false,
   output: "export",
-  basePath: "/public",
+  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;

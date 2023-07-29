@@ -9,17 +9,17 @@ export default function Projects() {
         <ProjectItem
           link={"https://moonlight-bd.com/"}
           caption={"Moonlight Group"}
-          imgLink={"/mlg.png"}
+          imgLink={"mlg.png"}
         />
         <ProjectItem
           link={"https://offbeat-todo-app.netlify.app/"}
           caption={"Todo App"}
-          imgLink={"/todo-app.png"}
+          imgLink={"todo-app.png"}
         />
         <ProjectItem
           link={"https://offbeat-random-quote.netlify.app/"}
           caption={"Random Quote Machine"}
-          imgLink={"/random-quote.png"}
+          imgLink={"random-quote.png"}
         />
       </ul>
     </section>

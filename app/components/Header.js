@@ -14,7 +14,7 @@ export default function Header() {
       </div>
       <Image
         className={styles.headerImage}
-        src="/brandNLarge.svg"
+        src="brandNLarge.svg"
         alt="header Image"
         width={500}
         height={500}
