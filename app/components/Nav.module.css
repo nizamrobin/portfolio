@@ -65,14 +65,7 @@
   letter-spacing: 0.5rem;
 }
 
-.logo {
-  /* filter: invert(87%) sepia(35%) saturate(3782%) hue-rotate(3deg)
-    brightness(109%) contrast(102%); */
-}
-
 .logo:hover {
-  /* filter: invert(10%) sepia(69%) saturate(7083%) hue-rotate(358deg)
-    brightness(109%) contrast(116%); */
   transition-duration: 0.2s;
 }
 
