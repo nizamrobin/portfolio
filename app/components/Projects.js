@@ -3,7 +3,7 @@ import styles from "../components/Projects.module.css";
 
 export default function Projects() {
   return (
-    <section id={styles.projects} className={styles.projects}>
+    <section id="projects" className={styles.projects}>
       <h3 className={styles.projectTitle}>Projects</h3>
       <ul className={styles.projectItems}>
         <ProjectItem

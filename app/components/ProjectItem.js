@@ -8,17 +8,21 @@ export default function ProjectItem({ link, caption, imgLink }) {
       <Link href={link} target="_blank">
         <Image
           class={styles.projectItemImg}
+    <li className={styles.projectItem}>
+      <Link href={link} target="_blank">
+        <Image
+          className={styles.projectItemImg}
           src={imgLink}
           alt={"Project-" + caption}
           width={500}
           height={500}
         />
-        <h4 class={styles.projectItemCap}>Moonlight Group</h4>
+        <h4 className={styles.projectItemCap}>{caption}</h4>
       </Link>
       <Link
         href={link}
         target="_blank"
-        class={`button ${styles.projectItemOpen}`}
+        className={`button ${styles.projectItemOpen}`}
       >
         Live Preview
       </Link>
