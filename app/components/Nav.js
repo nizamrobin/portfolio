@@ -1,5 +1,4 @@
-import styles from "./nav.module.css";
-import brandMini from "../../public/logo/brandMini.svg";
+import styles from "./Nav.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
