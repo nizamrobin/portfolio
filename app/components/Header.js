@@ -8,7 +8,7 @@ export default function Header() {
         <h1>
           Hi,
           <br />
-          I'm nizamrobin
+          I&apos;m nizamrobin
         </h1>
         <p className={styles.headerTextSub}>Front-End Developer</p>
       </div>
