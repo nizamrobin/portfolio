@@ -4,6 +4,10 @@ import Link from "next/link";
 
 export default function ProjectItem({ link, caption, imgLink }) {
   return (
+    <li class={styles.projectItem}>
+      <Link href={link} target="_blank">
+        <Image
+          class={styles.projectItemImg}
     <li className={styles.projectItem}>
       <Link href={link} target="_blank">
         <Image
