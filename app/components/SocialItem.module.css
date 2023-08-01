@@ -1,0 +1,17 @@
+.socialItem {
+  margin: 0 1rem;
+}
+.socialItemImg {
+  width: 5rem;
+  height: auto;
+  filter: invert(76%) sepia(94%) saturate(1185%) hue-rotate(358deg)
+    brightness(103%) contrast(107%);
+}
+
+.socialItem:hover .socialItemImg {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+  /* filter: invert(10%) sepia(69%) saturate(7083%) hue-rotate(358deg)
+      brightness(109%) contrast(116%); */
+  /* transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); */
+}

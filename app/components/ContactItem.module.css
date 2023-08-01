@@ -1,0 +1,14 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  color: var(--color-white);
+  margin: 0.5rem;
+}
+.contactItemImg {
+  width: 2.2rem;
+  height: auto;
+  padding-right: 1rem;
+  filter: invert(76%) sepia(94%) saturate(1185%) hue-rotate(358deg)
+    brightness(103%) contrast(107%);
+}
