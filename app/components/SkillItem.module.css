@@ -1,0 +1,21 @@
+.skillItem {
+  width: 15%;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  /* overflow: hidden; */
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.skillItemImg {
+  border-radius: 50%;
+  height: auto;
+  border: 0.7rem solid var(--color-accent);
+  padding: 1rem;
+  width: 70%;
+  margin-bottom: 10px;
+  /* overflow: hidden; */
+}
