@@ -24,22 +24,8 @@
 .menuLogo {
   width: 1.5rem;
   height: auto;
+  cursor: pointer;
 }
-.menuClose {
-  display: none;
-}
-
-/* Click event css on menu icon */
-.menuOpen:hover {
-  display: none;
-}
-.menuOpen:hover ~ .menuClose {
-  display: block;
-}
-.menuOpen:hover ~ .navList {
-  display: block;
-}
-/* end */
 
 /* Nav List */
 .navList {
@@ -51,7 +37,6 @@
   bottom: 0;
   transform: translate(0, 100%);
   padding: 1rem 0;
-  display: none;
 }
 
 .navListItem {
@@ -63,10 +48,6 @@
   font-size: 1.2rem;
   font-family: var(--font-secondary);
   letter-spacing: 0.5rem;
-}
-
-.logo:hover {
-  transition-duration: 0.2s;
 }
 
 @media only screen and (min-width: 768px) {
