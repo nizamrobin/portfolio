@@ -6,26 +6,24 @@ import { useEffect, useState } from "react";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [windowWidth, setWindowWidth] = useState();
 
-  // Track window size for Navbar to expand and to disable close menu function(handleClick)
+  // nav menu style change based on window width
   useEffect(() => {
-    const resizeHandler = () => {
-      let winWidth = window.innerWidth;
-      setWindowWidth(winWidth);
-      console.log(winWidth);
-    };
-    window.addEventListener("resize", resizeHandler);
-    if (windowWidth >= 768) {
+    let winWidth = window.innerWidth;
+    if (winWidth >= 768) {
       setIsMenuOpen(true);
     } else {
       setIsMenuOpen(false);
     }
-  }, [windowWidth]);
+    const resizeHandler = () => {
+      winWidth = window.innerWidth;
+    };
+    window.addEventListener("resize", resizeHandler);
+  }, []);
 
   // Open and close nav menu
   const handleClick = () => {
-    if (windowWidth < 768) {
+    if (window.innerWidth < 768) {
       isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true);
     }
   };

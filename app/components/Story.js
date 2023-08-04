@@ -20,7 +20,7 @@ export default function Story() {
       <div className={styles.storyHead}>
         <Image
           className={styles.watermark}
-          src="/brandNLarge.svg"
+          src="brandLarge.svg"
           alt="Brand"
           width={500}
           height={500}

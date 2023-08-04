@@ -11,6 +11,7 @@
 
 .watermark {
   position: absolute;
+  width: auto;
   height: 80%;
   transform: translate(-40%, -25%) rotate(-30deg);
   opacity: 0.15;
