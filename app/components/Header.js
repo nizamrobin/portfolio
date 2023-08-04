@@ -1,5 +1,6 @@
 import styles from "../components/Header.module.css";
 import Image from "next/image";
+import Typewriter from "./Typewriter";
 
 export default function Header() {
   return (
@@ -10,7 +11,11 @@ export default function Header() {
           <br />
           I&apos;m nizamrobin
         </h1>
-        <p className={styles.headerTextSub}>Front-End Developer</p>
+        <Typewriter
+          textReceived={"• Front-End Developer • React • Next.js"}
+          delayTime={200}
+          classes={styles.headerTextSub}
+        />
       </div>
       <Image
         className={styles.headerImage}
