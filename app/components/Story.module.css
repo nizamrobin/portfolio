@@ -60,7 +60,7 @@
 
 .storyDetail {
   /* width: 55%; */
-  height: 425px;
+  /* height: 425px; */
   text-align: justify;
   color: var(--color-white);
   font-family: var(--font-primary);
@@ -70,6 +70,7 @@
   line-height: 1.5;
   background-color: var(--color-accent);
   padding: 2rem;
+  white-space: pre-wrap;
 }
 @media only screen and (min-width: 480px) {
   .storyDetail {
