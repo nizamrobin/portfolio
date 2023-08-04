@@ -6,20 +6,24 @@ import { useEffect, useState } from "react";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState();
 
   // nav menu style change based on window width
   useEffect(() => {
     let winWidth = window.innerWidth;
-    if (winWidth >= 768) {
+    setWindowWidth(winWidth);
+    const resizeHandler = () => {
+      winWidth = window.innerWidth;
+      setWindowWidth(winWidth);
+    };
+    window.addEventListener("resize", resizeHandler);
+    if (windowWidth >= 768) {
       setIsMenuOpen(true);
+      console.log("big");
     } else {
       setIsMenuOpen(false);
     }
-    const resizeHandler = () => {
-      winWidth = window.innerWidth;
-    };
-    window.addEventListener("resize", resizeHandler);
-  }, []);
+  }, [windowWidth]);
 
   // Open and close nav menu
   const handleClick = () => {
