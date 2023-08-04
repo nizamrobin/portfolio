@@ -2,14 +2,34 @@
 import styles from "./Nav.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState();
+
+  // Track window size for Navbar to expand and to disable close menu function(handleClick)
+  useEffect(() => {
+    const resizeHandler = () => {
+      let winWidth = window.innerWidth;
+      setWindowWidth(winWidth);
+      console.log(winWidth);
+    };
+    window.addEventListener("resize", resizeHandler);
+    if (windowWidth >= 768) {
+      setIsMenuOpen(true);
+    } else {
+      setIsMenuOpen(false);
+    }
+  }, [windowWidth]);
+
+  // Open and close nav menu
   const handleClick = () => {
-    isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true);
-    // setIsMenuOpen(false);
+    if (windowWidth < 768) {
+      isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true);
+    }
   };
+
   return (
     <nav className={styles.navbar}>
       <Link className={styles.navHead} href="#">
