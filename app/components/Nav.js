@@ -3,6 +3,7 @@ import styles from "./Nav.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { fontPrimary, fontSecondary } from "./fonts";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,6 @@ export default function Nav() {
     window.addEventListener("resize", resizeHandler);
     if (windowWidth >= 768) {
       setIsMenuOpen(true);
-      console.log("big");
     } else {
       setIsMenuOpen(false);
     }
@@ -33,7 +33,7 @@ export default function Nav() {
   };
 
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${fontSecondary.variable}`}>
       <Link className={styles.navHead} href="#">
         <Image
           src="logo/brandMini.svg"

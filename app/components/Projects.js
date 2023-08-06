@@ -1,9 +1,13 @@
 import ProjectItem from "./ProjectItem";
 import styles from "../components/Projects.module.css";
+import { fontSecondary } from "./fonts";
 
 export default function Projects() {
   return (
-    <section id="projects" className={styles.projects}>
+    <section
+      id="projects"
+      className={`${styles.projects} ${fontSecondary.variable}`}
+    >
       <h3 className={styles.projectTitle}>Projects</h3>
       <ul className={styles.projectItems}>
         <ProjectItem

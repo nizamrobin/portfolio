@@ -9,8 +9,9 @@
   --color-white: #fff;
   --color-bg1: #f7f4f3;
   --color-bg2: #f0f0f0;
-  --font-primary: "Raleway", sans-serif;
-  --font-secondary: "Roboto Condensed", sans-serif;
+  /* --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Roboto Condensed", sans-serif; */
+  --font-third: "Sue Ellen Francisco", cursive;
 }
 
 * {
