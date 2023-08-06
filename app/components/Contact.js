@@ -1,12 +1,14 @@
 import ContactItem from "./ContactItem";
 import styles from "./Contact.module.css";
 import SocialItem from "./SocialItem";
-
+import { fontPrimary, fontSecondary } from "./fonts";
 export default function Contact() {
   return (
     <section id="contact" className={styles.contacts}>
-      <h3 className={styles.contactsTitle}>Contact me</h3>
-      <div className={styles.contactDetails}>
+      <h3 className={`${styles.contactsTitle} ${fontSecondary.variable}`}>
+        Contact me
+      </h3>
+      <div className={`${styles.contactDetails} ${fontPrimary.variable}`}>
         <div className={styles.contact}>
           <ContactItem
             hLink="mailto:nizamrobin@gmail.com"

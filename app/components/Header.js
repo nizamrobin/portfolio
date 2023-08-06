@@ -1,10 +1,13 @@
 import styles from "../components/Header.module.css";
 import Image from "next/image";
 import Typewriter from "./Typewriter";
+import { fontPrimary, fontSecondary } from "./fonts";
 
 export default function Header() {
   return (
-    <section className={styles.header}>
+    <section
+      className={`${styles.header} ${fontPrimary.variable} ${fontSecondary.variable}`}
+    >
       <div className={styles.headerText}>
         <h1>
           Hi,
