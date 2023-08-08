@@ -29,7 +29,6 @@
   font-family: var(--font-secondary);
   text-transform: uppercase;
   margin-bottom: 1rem;
-  /* font-weight: 400; */
 }
 
 .button {
@@ -65,11 +64,11 @@
   /* height: 425px; */
   text-align: justify;
   color: var(--color-white);
-  font-family: var(--font-third);
-  font-size: 1.3rem;
+  font-family: var(--font-primary);
+  font-size: 1.1rem;
   font-weight: 300;
   letter-spacing: 0.5px;
-  line-height: 1.7;
+  line-height: 1.5;
   background-color: var(--color-accent);
   padding: 2rem;
   white-space: pre-wrap;
@@ -85,13 +84,13 @@
     justify-content: space-around;
     padding: 5rem 2rem;
   }
-  .storyHead {
-    /* margin: 2rem; */
-  }
+  /* .storyHead {
+    margin: 2rem;
+  } */
   .storyDetail {
     width: 55%;
     font-size: 1.4rem;
-    /* line-height: 2; */
+    line-height: 2;
     overflow-y: scroll;
   }
 }
