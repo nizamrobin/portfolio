@@ -2,10 +2,11 @@
 import styles from "./Nav.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import NavlistItem from "./NavlistItem";
 import { useEffect, useState } from "react";
 import { fontPrimary, fontSecondary } from "./fonts";
 
-export default function Nav() {
+export default function Nav({ classes }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [windowWidth, setWindowWidth] = useState();
 
@@ -33,7 +34,9 @@ export default function Nav() {
   };
 
   return (
-    <nav className={`${styles.navbar} ${fontSecondary.variable}`}>
+    <nav
+      className={`${styles.navbar} ${styles[classes]} ${fontSecondary.variable}`}
+    >
       <Link className={styles.navHead} href="#">
         <Image
           src="logo/brandMini.svg"
@@ -66,18 +69,14 @@ export default function Nav() {
           />
 
           <ul className={styles.navList}>
-            <li className={styles.navListItem} onClick={handleClick}>
-              <a href="#story">Story</a>
-            </li>
-            <li className={styles.navListItem} onClick={handleClick}>
-              <a href="#projects">Projects</a>
-            </li>
-            <li className={styles.navListItem} onClick={handleClick}>
-              <a href="#skill">Skill</a>
-            </li>
-            <li className={styles.navListItem} onClick={handleClick}>
-              <a href="#contact">Contact</a>
-            </li>
+            <NavlistItem name="Story" link="#story" onClick={handleClick} />
+            <NavlistItem
+              name="Projects"
+              link="#projects"
+              onClick={handleClick}
+            />
+            <NavlistItem name="Skill" link="#skill" onClick={handleClick} />
+            <NavlistItem name="Contact" link="#contact" onClick={handleClick} />
           </ul>
         </>
       )}
