@@ -13,7 +13,7 @@ export default function Projects() {
         <ProjectItem
           link={"https://moonlight-bd.com/"}
           caption={"Moonlight Group"}
-          imgLink={"mlg.png"}
+          imgLink={"mlg.jpg"}
         />
         <ProjectItem
           link={"https://offbeat-todo-app.netlify.app/"}
