@@ -1,0 +1,16 @@
+.navListItem {
+  list-style: none;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-family: var(--font-secondary);
+  letter-spacing: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .navListItem {
+    color: var(--color-accent);
+  }
+}

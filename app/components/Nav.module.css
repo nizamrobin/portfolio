@@ -4,7 +4,10 @@
   justify-content: space-between;
   background-color: var(--color-primary);
   padding: 1rem 1.5rem;
-  position: relative;
+  /* position: relative; */
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .navHead {
   /* border: 1px solid #000; */
@@ -40,15 +43,8 @@
   /* display: none; */
 }
 
-.navListItem {
-  list-style: none;
-  color: var(--color-primary);
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 1rem 1.5rem;
-  font-size: 1.2rem;
-  font-family: var(--font-secondary);
-  letter-spacing: 0.5rem;
+.scrolledNav {
+  background-color: var(--color-fourth);
 }
 
 @media only screen and (min-width: 768px) {
@@ -65,14 +61,11 @@
     padding: 0 2rem;
   }
   .navList {
-    background-color: var(--color-primary);
+    background-color: inherit;
     display: flex;
     position: initial;
     transform: translate(0, 0);
     background-color: none;
     justify-content: flex-end;
-  }
-  .navListItem {
-    color: var(--color-accent);
   }
 }

@@ -1,6 +1,8 @@
+"use client";
 import "./globals.css";
 import Nav from "./components/Nav.js";
 import Footer from "./components/Footer";
+import { useEffect, useState } from "react";
 
 export const metadata = {
   title: "nizamrobin",
@@ -8,10 +10,17 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      window.scrollY > 0 ? setScrolled(true) : setScrolled(false);
+    };
+    window.addEventListener("scroll", handleScroll);
+  });
   return (
     <html lang="en">
       <body>
-        <Nav />
+        <Nav classes={scrolled && "scrolledNav"} />
         {children}
         <Footer />
       </body>

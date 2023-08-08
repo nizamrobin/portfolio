@@ -7,7 +7,6 @@ import Contact from "./components/Contact";
 export default function Home() {
   return (
     <main>
-      <h1 style={{ textAlign: "center" }}>The site is under-construction.</h1>
       <Header />
       <Story />
       <Projects />
