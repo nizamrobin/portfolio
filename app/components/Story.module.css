@@ -92,5 +92,6 @@
     font-size: 1.4rem;
     line-height: 2;
     overflow-y: scroll;
+    font-family: var(--font-third);
   }
 }
