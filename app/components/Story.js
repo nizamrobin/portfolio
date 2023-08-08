@@ -115,7 +115,7 @@ export default function Story() {
         <br></br>
         <h3>A Transition and Resilience</h3>
         <p>
-          In 2016, I embarked on a new chapter, joining a government-owned bank.
+          In 2019, I embarked on a new chapter, joining a government-owned bank.
           While the role offered stability, it came at the cost of my
           deep-rooted passion for technology. Determined to create a balance, I
           dedicated myself to my job responsibilities while seeking

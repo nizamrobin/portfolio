@@ -64,7 +64,7 @@
   /* height: 425px; */
   text-align: justify;
   color: var(--color-white);
-  font-family: var(--font-primary);
+  font-family: var(--font-third);
   font-size: 1.1rem;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -92,6 +92,5 @@
     font-size: 1.4rem;
     line-height: 2;
     overflow-y: scroll;
-    font-family: var(--font-third);
   }
 }
