@@ -12,6 +12,7 @@ export default function Skill() {
         <SkillItem imgLink="css.png" caption="CSS" />
         <SkillItem imgLink="git.png" caption="Git" />
         <SkillItem imgLink="html.png" caption="HTML" />
+        <SkillItem imgLink="tailwind.webp" caption="tailwindcss" />
       </ul>
     </section>
   );

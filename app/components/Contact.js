@@ -30,12 +30,12 @@ export default function Contact() {
             caption="LinkedIn"
           />
           <SocialItem
-            hLink="https://www.linkedin.com/in/nizamrobin"
+            hLink="https://codepen.io/nizamrobin"
             imgLink="logo/codepen.svg"
             caption="Codepen"
           />
           <SocialItem
-            hLink="https://www.linkedin.com/in/nizamrobin"
+            hLink="https://github.com/nizamrobin"
             imgLink="logo/github.svg"
             caption="Github"
           />
