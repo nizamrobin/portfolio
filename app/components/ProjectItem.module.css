@@ -1,5 +1,6 @@
 .projectItem {
   width: inherit;
+  max-width: 30rem;
   text-align: center;
   color: var(--color-accent);
   margin: 2rem;

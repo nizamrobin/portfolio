@@ -9,6 +9,7 @@ export default function Skill() {
       <ul className={styles.skillItems}>
         <SkillItem imgLink="next.png" caption="Next.js" />
         <SkillItem imgLink="react.png" caption="React" />
+        <SkillItem imgLink="typescript.png" caption="Typescript" />
         <SkillItem imgLink="css.png" caption="CSS" />
         <SkillItem imgLink="git.png" caption="Git" />
         <SkillItem imgLink="html.png" caption="HTML" />

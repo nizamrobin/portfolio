@@ -10,8 +10,8 @@ export default function Story() {
       <p>
         Hey there, I'm Nizam Robin, a passionate Front-End Developer with a
         background in Electrical and Electronic Engineering. Through self-guided
-        learning, I've mastered web technologies like HTML, CSS, React, and
-        Next.js.
+        learning, I've mastered web technologies like HTML, CSS, Tailwindcss,
+        React and Next.js.
       </p>
       <br></br>
       <p>
