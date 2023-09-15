@@ -1,11 +1,13 @@
 import Image from "next/image";
 import styles from "../components/ProjectItem.module.css";
 import Link from "next/link";
+import { fontPrimary, fontSecondary } from "./fonts";
 
-export default function ProjectItem({ link, caption, imgLink }) {
+export default function ProjectItem({ link, caption, imgLink, description }) {
   return (
     <li class={styles.projectItem}>
       <Link href={link} target="_blank">
+        <h4 className={styles.projectItemCap}>{caption}</h4>
         <Image
           className={styles.projectItemImg}
           src={imgLink}
@@ -13,7 +15,11 @@ export default function ProjectItem({ link, caption, imgLink }) {
           width={500}
           height={500}
         />
-        <h4 className={styles.projectItemCap}>{caption}</h4>
+        <p
+          className={`${styles.projectItemDescription} ${fontPrimary.variable}`}
+        >
+          {description}
+        </p>
       </Link>
       <Link
         href={link}
