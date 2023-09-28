@@ -3,10 +3,11 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--color-bg1);
-  padding: 4rem 2rem;
+  padding: 12rem 2rem 4rem;
   z-index: 0;
   position: relative;
   overflow: hidden;
+  /* padding-top: 7rem; */
 }
 
 .watermark {
@@ -82,7 +83,7 @@
   .story {
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 5rem 2rem;
+    padding: 12rem 2rem 5rem;
   }
   /* .storyHead {
     margin: 2rem;

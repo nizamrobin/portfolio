@@ -1,0 +1,36 @@
+.ctaContainer {
+  padding: 3rem;
+  /* width: 90%; */
+  background-color: #000;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  max-width: 50rem;
+  left: 2rem;
+  right: 2rem;
+  margin: auto;
+  transform: translateY(-50%);
+  border-radius: 0.5rem;
+}
+.ctaContainerTitle {
+  font-size: 1.8rem;
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .ctaContainer {
+    max-width: 20rem;
+    left: 12%;
+    margin: initial;
+    text-align: center;
+  }
+  .ctaContainerTitle {
+    margin-bottom: 2rem;
+  }
+}
