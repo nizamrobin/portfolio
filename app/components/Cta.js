@@ -6,7 +6,7 @@ export default function Cta({ link, caption }) {
     <a
       type="pdf"
       href={link}
-      download="Resume-Nizam Robin"
+      download="Resume_Md_Nizamuddin"
       className={`${classes.cta} ${fontSecondary.variable}`}
     >
       {caption}

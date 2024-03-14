@@ -15,7 +15,7 @@ export default function Home() {
         <h3 className={`${classes.ctaContainerTitle} ${fontPrimary.variable}`}>
           Want to have a look at my resume?
         </h3>
-        <Cta link="/resume.pdf" caption="download" />
+        <Cta link="resume.pdf" caption="download" />
       </div>
       <Story />
       <Projects />
