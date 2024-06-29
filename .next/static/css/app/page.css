@@ -301,104 +301,6 @@
   }
 }
 
-/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/ProjectItem.module.css ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************/
-.ProjectItem_projectItem__OIe3c {
-  width: inherit;
-  max-width: 35rem;
-  text-align: center;
-  color: var(--color-accent);
-  margin: 2rem;
-  font-size: 1.5rem;
-  list-style: none;
-  font-family: var(--font-secondary);
-  border: 1px solid #ccc;
-}
-.ProjectItem_projectItemImg__ktEPQ {
-  width: 100%;
-  height: 20rem;
-}
-
-.ProjectItem_projectItemCap__SjdHS {
-  padding: 1rem;
-  font-size: 2rem;
-}
-.ProjectItem_projectItemDescription__ZYKr4 {
-  margin: auto;
-  padding: 1rem;
-  line-height: 1.7rem;
-  font-family: var(--font-primary);
-}
-.ProjectItem_projectItem__OIe3c:hover {
-  scale: 1.05;
-  transition-duration: 0.3s;
-  border-radius: 5px;
-  background-color: var(--color-primary);
-  /* width: 80%; */
-}
-.ProjectItem_projectItem__OIe3c:hover .ProjectItem_projectItemCap__SjdHS {
-  background-color: var(--color-bg2);
-}
-.ProjectItem_projectItemOpen__DjIiD {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  visibility: hidden;
-}
-.ProjectItem_projectItem__OIe3c:hover .ProjectItem_projectItemImg__ktEPQ {
-  /* scale: 0.9; */
-  opacity: 0.2;
-}
-.ProjectItem_projectItem__OIe3c:hover .ProjectItem_projectItemOpen__DjIiD {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 1s 0.2s, opacity 0.3s;
-}
-
-@media only screen and (min-width: 480px) {
-  .ProjectItem_projectItem__OIe3c {
-    width: 80%;
-  }
-}
-@media only screen and (min-width: 640px) {
-  .ProjectItem_projectItem__OIe3c {
-    width: 40%;
-  }
-}
-
-/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/Projects.module.css ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************/
-.Projects_projects__mwlJG {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4rem 2rem;
-  background-color: var(--color-bg2);
-}
-.Projects_projectTitle__7u8wt {
-  font-size: 5rem;
-  font-family: var(--font-secondary);
-  text-transform: uppercase;
-}
-.Projects_projectItems__GnPR1 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-@media only screen and (min-width: 600px) {
-  .Projects_projectItems__GnPR1 {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/SkillItem.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -543,6 +445,27 @@
   /* transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); */
 }
 
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/Cta.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.Cta_cta__z8FZA {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--color-black);
+  background-color: var(--color-primary);
+  transition-duration: 0.3s;
+}
+
+.Cta_cta__z8FZA:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/ctaContainer.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************/
@@ -583,24 +506,101 @@
   }
 }
 
-/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/Cta.module.css ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************/
-.Cta_cta__z8FZA {
-  padding: 1rem;
-  border-radius: 0.4rem;
-  font-weight: 600;
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/ProjectItem.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.ProjectItem_projectItem__OIe3c {
+  width: inherit;
+  max-width: 35rem;
+  text-align: center;
+  color: var(--color-accent);
+  margin: 2rem;
+  font-size: 1.5rem;
+  list-style: none;
   font-family: var(--font-secondary);
-  font-size: 2rem;
-  text-transform: capitalize;
-  cursor: pointer;
-  color: var(--color-black);
-  background-color: var(--color-primary);
-  transition-duration: 0.3s;
+  border: 1px solid #ccc;
+}
+.ProjectItem_projectItemImg__ktEPQ {
+  width: 100%;
+  height: 20rem;
 }
 
-.Cta_cta__z8FZA:hover {
-  background-color: var(--color-secondary);
-  color: var(--color-white);
+.ProjectItem_projectItemCap__SjdHS {
+  padding: 1rem;
+  font-size: 2rem;
+}
+.ProjectItem_projectItemDescription__ZYKr4 {
+  margin: auto;
+  padding: 1rem;
+  line-height: 1.7rem;
+  font-family: var(--font-primary);
+}
+.ProjectItem_projectItem__OIe3c:hover {
+  scale: 1.05;
+  transition-duration: 0.3s;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  /* width: 80%; */
+}
+.ProjectItem_projectItem__OIe3c:hover .ProjectItem_projectItemCap__SjdHS {
+  background-color: var(--color-bg2);
+}
+.ProjectItem_projectItemOpen__DjIiD {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+.ProjectItem_projectItem__OIe3c:hover .ProjectItem_projectItemImg__ktEPQ {
+  /* scale: 0.9; */
+  opacity: 0.2;
+}
+.ProjectItem_projectItem__OIe3c:hover .ProjectItem_projectItemOpen__DjIiD {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 1s 0.2s, opacity 0.3s;
+}
+
+@media only screen and (min-width: 480px) {
+  .ProjectItem_projectItem__OIe3c {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .ProjectItem_projectItem__OIe3c {
+    width: 40%;
+  }
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/Projects.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Projects_projects__mwlJG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: var(--color-bg2);
+}
+.Projects_projectTitle__7u8wt {
+  font-size: 5rem;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+}
+.Projects_projectItems__GnPR1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .Projects_projectItems__GnPR1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
