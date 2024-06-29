@@ -5,7 +5,7 @@ import { fontPrimary, fontSecondary } from "./fonts";
 
 export default function ProjectItem({ link, caption, imgLink, description }) {
   return (
-    <li class={styles.projectItem}>
+    <article class={styles.projectItem}>
       <Link href={link} target="_blank">
         <h4 className={styles.projectItemCap}>{caption}</h4>
         <Image
@@ -28,6 +28,6 @@ export default function ProjectItem({ link, caption, imgLink, description }) {
       >
         Live Preview
       </Link>
-    </li>
+    </article>
   );
 }
