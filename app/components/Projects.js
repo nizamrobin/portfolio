@@ -9,7 +9,7 @@ export default function Projects() {
       className={`${styles.projects} ${fontSecondary.variable}`}
     >
       <h3 className={styles.projectTitle}>Projects</h3>
-      <ul className={styles.projectItems}>
+      <div className={styles.projectItems}>
       <ProjectItem
           link={"https://prolap.netlify.app/"}
           caption={"proআলাপ"}
@@ -40,7 +40,7 @@ export default function Projects() {
           imgLink={"random-quote.png"}
           description="Initial project for having the taste of React. Raw CSS and Vanila Javascript is used. A free quote API is integrated for quote generation. Hosted on Netlify."
         />
-      </ul>
+      </div>
     </section>
   );
 }
