@@ -1,0 +1,315 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/globals.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+:root {
+  border: none;
+  --base-font-size: 10px;
+  --color-primary: #ffe100;
+  --color-secondary: #f00000;
+  --color-accent: #050505;
+  --color-fourth: #ffc917;
+  --color-fifth: #8c0000;
+  --color-white: #fff;
+  --color-bg1: #f7f4f3;
+  --color-bg2: #f0f0f0;
+  /* --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Roboto Condensed", sans-serif; */
+  /* --font-third: "Sue Ellen Francisco", cursive; */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: var(--base-font-size);
+  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+main {
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+button {
+  border: none;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/NavlistItem.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.NavlistItem_navListItem__lEkJN {
+  list-style: none;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  font-family: var(--font-secondary);
+  letter-spacing: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .NavlistItem_navListItem__lEkJN {
+    color: var(--color-accent);
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\components\\fonts.js","import":"Raleway","arguments":[{"subsets":["latin"],"display":"swap","weight":"400","variable":"--font-primary"}],"variableName":"fontPrimary"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Raleway_529fac';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/0e34421fe2babf9e-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Raleway_529fac';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/10fe798399dd9318-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Raleway_529fac';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/05c8469b26e39571-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Raleway_529fac';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/d2c6723ae5582fc0-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Raleway_529fac';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/0ebba97e8299cf24-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Raleway_Fallback_529fac';src: local("Arial");ascent-override: 89.62%;descent-override: 22.31%;line-gap-override: 0.00%;size-adjust: 104.89%
+}.__className_529fac {font-family: '__Raleway_529fac', '__Raleway_Fallback_529fac';font-weight: 400;font-style: normal
+}.__variable_529fac {--font-primary: '__Raleway_529fac', '__Raleway_Fallback_529fac'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\components\\fonts.js","import":"Roboto_Condensed","arguments":[{"subsets":["latin"],"weight":"400","variable":"--font-secondary"}],"variableName":"fontSecondary"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/290276bbc0aaa986-s.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/109c3d45b531622a-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/5873c060a9d5dc5f-s.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/ea72d168b005c995-s.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/07f5ed10b18438e2-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/db3b7c1daf911997-s.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Roboto_Condensed_429fb4';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/a5bbb863eaccdfa2-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Roboto_Condensed_Fallback_429fb4';src: local("Arial");ascent-override: 104.18%;descent-override: 27.42%;line-gap-override: 0.00%;size-adjust: 89.05%
+}.__className_429fb4 {font-family: '__Roboto_Condensed_429fb4', '__Roboto_Condensed_Fallback_429fb4';font-weight: 400;font-style: normal
+}.__variable_429fb4 {--font-secondary: '__Roboto_Condensed_429fb4', '__Roboto_Condensed_Fallback_429fb4'
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\components\\fonts.js","import":"Neucha","arguments":[{"subsets":["latin"],"weight":"400","variable":"--font-third"}],"variableName":"fontThird"} ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic */
+@font-face {
+  font-family: '__Neucha_05000c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/c14b87340aa10560-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+  font-family: '__Neucha_05000c';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/2353a6662b834442-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Neucha_Fallback_05000c';src: local("Arial");ascent-override: 91.42%;descent-override: 33.92%;line-gap-override: 5.69%;size-adjust: 84.07%
+}.__className_05000c {font-family: '__Neucha_05000c', '__Neucha_Fallback_05000c';font-weight: 400;font-style: normal
+}.__variable_05000c {--font-third: '__Neucha_05000c', '__Neucha_Fallback_05000c'
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/Nav.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.Nav_navbar__oJ4c7 {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-primary);
+  padding: 1rem 1.5rem;
+  /* position: relative; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.Nav_navHead__FlcSm {
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  font-family: var(--font-secondary);
+}
+.Nav_brand__VTHji {
+  width: 1.2rem;
+  height: auto;
+}
+.Nav_navTitle__SjgIP {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  line-height: 1;
+}
+.Nav_menuLogo__s80MG {
+  width: 1.5rem;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Nav List */
+.Nav_navList__brP9_ {
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-accent);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(0, 100%);
+  padding: 1rem 0;
+  /* display: none; */
+}
+
+.Nav_scrolledNav__cJoLn {
+  background-color: var(--color-fourth);
+}
+
+@media only screen and (min-width: 768px) {
+  .Nav_brand__VTHji {
+    width: 1.7rem;
+  }
+  .Nav_navTitle__SjgIP {
+    font-size: 2rem;
+  }
+  .Nav_menuLogo__s80MG {
+    display: none;
+  }
+  .Nav_navbar__oJ4c7 {
+    padding: 0 2rem;
+  }
+  .Nav_navList__brP9_ {
+    background-color: inherit;
+    display: flex;
+    position: initial;
+    transform: translate(0, 0);
+    background-color: none;
+    justify-content: flex-end;
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/components/Footer.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__0IXn3 {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--color-accent);
+}
+.Footer_footerText__pZkXo {
+  color: var(--color-primary);
+  line-height: 2;
+  font-family: var(--font-secondary);
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}
+

@@ -5,7 +5,7 @@ import { fontPrimary, fontSecondary } from "./fonts";
 
 export default function ProjectItem({ link, caption, imgLink, description }) {
   return (
-    <article class={styles.projectItem}>
+    <article className={styles.projectItem}>
       <Link href={link} target="_blank">
         <h4 className={styles.projectItemCap}>{caption}</h4>
         <Image
