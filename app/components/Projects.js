@@ -14,7 +14,7 @@ export default function Projects() {
           link={"https://prolap.netlify.app/"}
           caption={"proআলাপ"}
           imgLink={"prolap.png"}
-          description={["A chatting web app. Inspire from the chat app build by ", <a href="https://www.freecodecamp.org/news/building-a-real-time-chat-app-with-reactjs-and-firebase/">Timonwa Akintokun</a>," and improved it by adding features like person to person private chat, message editing or deleting and still working on enriching features. Technologies used are React, Vite, JS, Firebase Auth and Firestore and deployed and hosted on Netlify for live preview."]}
+          description={["A chatting web app. Inspire from the chat app build by ", <a key="anc" href="https://www.freecodecamp.org/news/building-a-real-time-chat-app-with-reactjs-and-firebase/">Timonwa Akintokun</a>," and improved it by adding features like person to person private chat, message editing or deleting and still working on enriching features. Technologies used are React, Vite, JS, Firebase Auth and Firestore and deployed and hosted on Netlify for live preview."]}
         />
         <ProjectItem
           link={"https://offbeat-todo-app.netlify.app/"}
